@@ -35,3 +35,7 @@ TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300
 
 # inherit from the proprietary version
 -include vendor/samsung/i9300/BoardConfigVendor.mk
+
+ifdef MK_RELEASE
+WITH_DEXPREOPT := true
+endif
