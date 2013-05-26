@@ -1,0 +1,18 @@
+[
+    {
+        "repository": "MoKee/android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412",
+        "branch": "jb-mr1_mkt"
+    },
+    {
+        "repository": "MoKee/android_vendor_samsung_i9300",
+        "target_path": "vendor/samsung/i9300",
+        "branch": "jb-mr1_mkt"
+    },
+    {
+        "repository": "android_packages_apps_SamsungServiceMode",
+        "target_path": "packages/apps/SamsungServiceMode",
+        "branch": "cm-10.1",
+        "remote": "cyanogen"
+    }
+]
