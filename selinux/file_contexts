@@ -38,3 +38,6 @@
 /system/vendor/firmware(/.*)?           u:object_r:firmware_camera:s0
 /system/vendor/firmware/mfc_fw.bin      u:object_r:firmware_mfc:s0
 /data/cfw(/.*)?                         u:object_r:firmware_camera:s0
+
+# Preload files
+/preload(/.*)?                          u:object_r:system_file:s0
