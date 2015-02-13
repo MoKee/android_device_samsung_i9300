@@ -48,6 +48,12 @@ service gpsd /system/bin/gpsd -c /system/etc/gps.xml
     user gps
     group system inet sdcard_rw
 
+# ZRAM configuration file
+service configure_zram /system/bin/configure_zram
+    class late_start
+    user root
+    oneshot
+
 # CyanogenMod Performance Profiles
 
 # Powersave
