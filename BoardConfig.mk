@@ -69,3 +69,7 @@ DEVICE_RESOLUTION := 720x1280
 
 # inherit from the proprietary version
 -include vendor/samsung/i9300/BoardConfigVendor.mk
+
+ifdef MK_RELEASE
+WITH_DEXPREOPT := true
+endif
