@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := i9300
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Inherit some common MK stuff.
+# Inherit some common CM stuff.
 $(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit device configuration
