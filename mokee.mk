@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Inherit some common MK stuff.
+# Inherit some common stuff.
 $(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
